@@ -1,0 +1,153 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+  text-transform: uppercase;
+  width: 300px;
+  border-bottom: 1px solid gray;
+  box-shadow: 0 4px 5px -5px rgba(0,0,0,.5);
+}
+#container{
+  width: 800px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#userInfo{
+  border-top: 1px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 1px solid dimgray;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  border-radius: 15px;
+  padding: 10px 40px;
+  background: white;
+  width: 300px;
+  height: 400px;
+  /*border-radius: 1px;*/
+  text-align: center;
+  margin-left: 10px;
+  margin-right: auto;
+  /*margin-left:auto;*/
+  display: inline-block;
+  float:left;
+}
+
+#calculator{
+  border-top: 1px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+  border-bottom: 1px solid dimgray;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+  border-radius: 15px;
+  padding: 10px 40px;
+  background: white;
+  width: 300px;
+  height: 400px;
+  /*border-radius: 1px;*/
+  text-align: center;
+  margin-left:auto;
+  margin-right: 10px;
+  display: inline-block;
+  float:left;
+}
+
+form input{
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+}
+
+form ul{
+  text-align: left;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  width: 300px;
+}
+
+form li{
+  padding-bottom: 40px;
+  height: 20px;
+}
+
+form #liLast{
+  padding-bottom: 0px;
+}
+
+form label{
+  width: 100px;
+  margin-right: auto;
+  text-align: right;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.button{
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 600;
+  border-radius: 1px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid dimgray;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+#name{
+  width: 165px;
+}
+
+#age{
+  width: 29px;
+}
+#weight{
+  width: 50px;
+}
+#feet{
+  width: 50px;
+}
+
+#inches{
+  width: 50px;
+}
+
+#table{
+  width: 300px;
+  height: 150px;
+  border: 1px solid black;
+  text-align: left;
+  border-collapse: collapse;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+#table td{
+  border: 1px solid black;
+}
+
+#table .label{
+  width: 75px;
+  padding-left: 5px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+#table .output{
+  padding-left: 5px;
+}
+
+#analysis{
+  border: 1px solid black;
+  border-top: none;
+  margin-top: 0px;
+  padding-top: 20px;
+  height: 120px;
+}
